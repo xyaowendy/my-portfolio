@@ -13,11 +13,24 @@ $(document).ready(function() {
         // loopTop:true,
     });
 
-    //methods
+    // methods   
     $.fn.fullpage.setAllowScrolling(true);
 
     // loading
     setTimeout(function() {
         $("body").addClass("loaded");
     }, 2000); // 1 second delay
+
+
+    var typed = new Typed('#greeting', {
+        strings: ["Hi", "你好","Hallo","G'day","こんにちは"],
+        showCursor:true,
+        autoInsertCss:true,
+        typeSpeed: 100,
+        backspeed:50,
+        loop: true
+      });
+
 });
+
+   

@@ -20,7 +20,7 @@
 .php {width: 60%; background-color: #13C4A3;}
 
 .introduction {
-    background-color: #3AAFA9 !important;
+    background-color: #000000 !important;
 }
 
 h1 {
@@ -153,3 +153,16 @@ body.loaded #loading {
     opacity: 0;
     visibility: hidden;
 }
+
+#greeting {
+    color: #feffff;
+    height: 10px;
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .typed-cursor{
+    font-size: 50px;
+    color: #feffff;
+} */
