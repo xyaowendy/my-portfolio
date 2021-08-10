@@ -29,7 +29,6 @@ $(document).ready(function() {
         typeSpeed: 100,
         backspeed:50,
         loop: true,
-        // cursorChar: "_"
       });
 
 });
