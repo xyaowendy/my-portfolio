@@ -23,12 +23,13 @@ $(document).ready(function() {
 
 
     var typed = new Typed('#greeting', {
-        strings: ["Hi", "你好","Hallo","G'day","こんにちは"],
+        strings: ["Hi", "你好","Hoi","G'day","こんにちは"],
         showCursor:true,
         autoInsertCss:true,
         typeSpeed: 100,
         backspeed:50,
-        loop: true
+        loop: true,
+        // cursorChar: "_"
       });
 
 });
