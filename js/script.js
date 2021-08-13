@@ -17,9 +17,9 @@ $(document).ready(function() {
     $.fn.fullpage.setAllowScrolling(true);
 
     // loading
-    setTimeout(function() {
-        $("body").addClass("loaded");
-    }, 2000); // 1 second delay
+    // setTimeout(function() {
+    //     $("body").addClass("loaded");
+    // }, 2000); // 1 second delay
 
 
     var typed = new Typed('#greeting', {
@@ -27,7 +27,7 @@ $(document).ready(function() {
         showCursor:true,
         autoInsertCss:true,
         typeSpeed: 100,
-        backspeed:50,
+        backSpeed:30,
         loop: true,
       });
 
