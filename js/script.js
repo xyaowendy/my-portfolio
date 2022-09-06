@@ -31,15 +31,24 @@ $(document).ready(function() {
         loop: true,
       });
 
-      var typed1 = new Typed('#skill', {
-        strings: ["I have experience in CSS","I have experience in JavaScript","I have experience in PHP",
-    "I have experience in WordPress","I have experience in Python","I have experience in Java"],
+    var typed1 = new Typed('#skill', {
+        strings: ["I love CSS","I love JavaScript","I love React",
+            "I love Java","I love front end coding!"],
         showCursor:true,
         autoInsertCss:true,
         typeSpeed: 100,
         backSpeed:30,
         loop: true,
-      });
+    });
+
+    var typed12 = new Typed('#continue', {
+        strings: ["To be continued..."],
+        showCursor:true,
+        autoInsertCss:true,
+        typeSpeed: 100,
+        backSpeed:30,
+        loop: true,
+    });
 });
 
    
